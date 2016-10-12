@@ -51,7 +51,7 @@
                     <plugin>
                         <groupId>org.eclipse.tycho.extras</groupId>
                         <artifactId>tycho-pack200a-plugin</artifactId>
-                        <version>${tycho.version}</version>
+                        <version>${tycho-version}</version>
                         <executions>
                             <execution>
                                 <id>pack200-normalize</id>
@@ -83,7 +83,7 @@
                     <plugin>
                         <groupId>org.eclipse.tycho.extras</groupId>
                         <artifactId>tycho-pack200b-plugin</artifactId>
-                        <version>${tycho.version}</version>
+                        <version>${tycho-version}</version>
                         <executions>
                             <execution>
                                 <id>pack200-pack</id>
@@ -96,7 +96,7 @@
                     <plugin>
                         <groupId>org.eclipse.tycho</groupId>
                         <artifactId>tycho-p2-plugin</artifactId>
-                        <version>${tycho.version}</version>
+                        <version>${tycho-version}</version>
                         <executions>
                             <execution>
                                 <id>attach-p2-metadata</id>
